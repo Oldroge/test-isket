@@ -1,14 +1,12 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 
-import GET_API from './api/index';
+// import Api from './api/index';
+import Map from './Components/Map';
 
 function App() {
   return (
-    <>
-      <h1>Isket Map</h1>
-      <GET_API />
-    </>
+    <Map />
   );
 }
 
